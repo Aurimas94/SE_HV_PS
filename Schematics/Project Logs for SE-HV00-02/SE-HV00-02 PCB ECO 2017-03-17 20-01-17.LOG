@@ -1,0 +1,30 @@
+Removed Member From Class: ClassName=Switching_Block Member=L1
+Removed Member From Class: ClassName=Switching_Block Member=U2
+Change Component Footprint: Designator=U1 Old Footprint=10-LEAD PLASTIC MSOP New Footprint=LQFP48_N
+Change Component Designator: OldDesignator=C3 NewDesignator=C48
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+3.3V Pin=C3-2
+Added Pin To Net: NetName=+3.3V Pin=Q2-2
+Added Pin To Net: NetName=+3.3V Pin=R26-2
+Added Pin To Net: NetName=NetU1_18 Pin=U1-18
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Pin To Net: NetName=+3.3V Pin=U1-24
+Added Pin To Net: NetName=NetQ2_1 Pin=U1-29
+Added Pin To Net: NetName=NetR21_2 Pin=U1-32
+Added Pin To Net: NetName=NetR22_2 Pin=U1-33
+Added Pin To Net: NetName=SWD Pin=U1-34
+Added Pin To Net: NetName=GND Pin=U1-35
+Added Pin To Net: NetName=+3.3V Pin=U1-36
+Added Pin To Net: NetName=SWC Pin=U1-37
+Added Pin To Net: NetName=NetR19_1 Pin=U1-42
+Added Pin To Net: NetName=NetR20_1 Pin=U1-43
+Added Pin To Net: NetName=NetR2_1 Pin=U1-44
+Added Pin To Net: NetName=GND Pin=U1-47
+Added Pin To Net: NetName=+3.3V Pin=U1-48
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=NetP1_2 Pin=U1-30
+Added Net: Name=NetP1_2
+Added Pin To Net: NetName=NetP1_3 Pin=P1-3
+Added Pin To Net: NetName=NetP1_3 Pin=U1-31
+Added Net: Name=NetP1_3
+Added Member To Class: ClassName=Control Member=Component C48 100nF

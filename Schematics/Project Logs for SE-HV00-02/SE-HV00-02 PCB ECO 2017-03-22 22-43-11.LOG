@@ -1,0 +1,134 @@
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=+12V Pin=C11-2
+Removed Pin From Net: NetName=NetC18_1 Pin=C20-1
+Removed Pin From Net: NetName=GND Pin=C20-2
+Removed Pin From Net: NetName=NetC22_2 Pin=C23-2
+Removed Pin From Net: NetName=NetC24_2 Pin=C25-2
+Removed Pin From Net: NetName=NetC30_2 Pin=C31-2
+Removed Pin From Net: NetName=NetC32_2 Pin=C33-2
+Removed Pin From Net: NetName=GND Pin=L3-2
+Removed Pin From Net: NetName=+12V Pin=L3-4
+Removed Pin From Net: NetName=+12V Pin=P1-1
+Removed Pin From Net: NetName=+5V Pin=P1-2
+Removed Pin From Net: NetName=GND Pin=P1-3
+Removed Pin From Net: NetName=GND Pin=P1-4
+Removed Pin From Net: NetName=NetC24_2 Pin=R9-2
+Removed Pin From Net: NetName=NetC30_2 Pin=R11-1
+Removed Pin From Net: NetName=NetC32_2 Pin=R11-2
+Removed Pin From Net: NetName=NetC32_2 Pin=R27-1
+Removed Pin From Net: NetName=NetD8_2 Pin=R27-2
+Removed Pin From Net: NetName=NetC24_2 Pin=R31-1
+Removed Pin From Net: NetName=GND Pin=T1-2
+Removed Pin From Net: NetName=GND Pin=T1-3
+Removed Pin From Net: NetName=GND Pin=T1-4
+Removed Pin From Net: NetName=GND Pin=T1-7
+Removed Pin From Net: NetName=GND Pin=T1-9
+Removed Member From Class: ClassName=Switching_Block Member=C20
+Removed Member From Class: ClassName=Switching_Block Member=C33
+Removed Member From Class: ClassName=SE-HV00-02 Member=J1
+Removed Member From Class: ClassName=SE-HV00-02 Member=P1
+Removed Member From Class: ClassName=Current_Voltage_measure Member=R27
+Removed Member From Class: ClassName=Current_Voltage_measure Member=R31
+Removed Member From Class: ClassName=HV Member=NetC32_2
+Removed Member From Class: ClassName=HV Member=NetD8_1
+Removed Member From Class: ClassName=HV Member=NetD9_1
+Removed Member From Class: ClassName=HV Member=NetD9_2
+Removed Member From Class: ClassName=HV Member=NetL1_2
+Removed Member From Class: ClassName=HV Member=NetL2_2
+Change Component DesignItemId : Designator=C20 Old DesignItemId=C0000013 New DesignItemId=C0000111
+Change Component DesignItemId : Designator=R9 Old DesignItemId=R2412056 New DesignItemId=R2412045
+Change Component DesignItemId : Designator=R11 Old DesignItemId=R2412056 New DesignItemId=R2412045
+Change Component DesignItemId : Designator=R27 Old DesignItemId=R2412072 New DesignItemId=R2412045
+Change Component DesignItemId : Designator=R31 Old DesignItemId=R2412072 New DesignItemId=R2412045
+Change Component Footprint: Designator=C20 Old Footprint=FT_C New Footprint=C1808
+Change Component Comment : Designator=R27 Old Comment=1k0 New Comment=75R
+Change Component Comment : Designator=R31 Old Comment=1k0 New Comment=75R
+Change Component Comment : Designator=C20 Old Comment=47uFx16V New Comment=100nF
+Change Component Comment : Designator=R9 Old Comment=220R New Comment=75R
+Change Component Comment : Designator=R11 Old Comment=220R New Comment=75R
+Change Component Designator: OldDesignator=Control NewDesignator=Control_out
+Change Component Designator: OldDesignator=P3 NewDesignator=HV_Out
+Change Component Designator: OldDesignator=P4 NewDesignator=Control_in
+Change Component Designator: OldDesignator=Power NewDesignator=Power_out
+Change Component Description : Designator=R27 Old Description=1K0 5% 1206 1/4W New Description=75R 5% 1206 1/4W
+Change Component Description : Designator=R31 Old Description=1K0 5% 1206 1/4W New Description=75R 5% 1206 1/4W
+Change Component Description : Designator=R9 Old Description=Res, 220R 5% 1206 1/4W New Description=75R 5% 1206 1/4W
+Change Component Description : Designator=R11 Old Description=Res, 220R 5% 1206 1/4W New Description=75R 5% 1206 1/4W
+Added Component: Designator=C50(CAPC3225N)
+Added Component: Designator=C51(C1808)
+Added Component: Designator=C52(C1808)
+Added Component: Designator=Power_in(RA Socket 4 pin)
+Added Component: Designator=R37(RESC3216N)
+Added Component: Designator=R38(RESC3216N)
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C50-1
+Added Pin To Net: NetName=NetC18_1 Pin=C50-2
+Added Pin To Net: NetName=GND Pin=C51-1
+Added Pin To Net: NetName=NetD8_1 Pin=C51-2
+Added Pin To Net: NetName=GND Pin=C52-1
+Added Pin To Net: NetName=NetD9_2 Pin=C52-2
+Added Pin To Net: NetName=+12V Pin=Power_in-1
+Added Pin To Net: NetName=+5V Pin=Power_in-2
+Added Pin To Net: NetName=GND Pin=Power_in-3
+Added Pin To Net: NetName=GND Pin=Power_in-4
+Added Pin To Net: NetName=NetC24_2 Pin=R11-2
+Added Pin To Net: NetName=NetC24_2 Pin=R27-1
+Added Pin To Net: NetName=NetC30_2 Pin=R31-1
+Added Pin To Net: NetName=NetC32_2 Pin=R37-2
+Added Pin To Net: NetName=NetC32_2 Pin=R38-1
+Added Pin To Net: NetName=NetD8_2 Pin=R38-2
+Change Net Name : Old Net Name=NetControl_2 New Net Name=NetControl_out_2
+Change Net Name : Old Net Name=NetControl_3 New Net Name=NetControl_out_3
+Change Net Name : Old Net Name=NetControl_4 New Net Name=NetControl_out_4
+Change Net Name : Old Net Name=NetD8_1 New Net Name=NetC51_2
+Change Net Name : Old Net Name=NetD9_2 New Net Name=NetC52_2
+Change Net Name : Old Net Name=NetP4_2 New Net Name=NetControl_in_2
+Change Net Name : Old Net Name=NetP4_3 New Net Name=NetControl_in_3
+Change Net Name : Old Net Name=NetP4_4 New Net Name=NetControl_in_4
+Added Pin To Net: NetName=NetC20_2 Pin=C20-2
+Added Pin To Net: NetName=NetC20_2 Pin=HV_Out-1
+Added Pin To Net: NetName=NetC20_2 Pin=L1-2
+Added Net: Name=NetC20_2
+Added Pin To Net: NetName=NetC23_2 Pin=C23-2
+Added Pin To Net: NetName=NetC23_2 Pin=R9-2
+Added Pin To Net: NetName=NetC23_2 Pin=R11-1
+Added Net: Name=NetC23_2
+Added Pin To Net: NetName=NetC25_2 Pin=C25-2
+Added Pin To Net: NetName=NetC25_2 Pin=D9-1
+Added Pin To Net: NetName=NetC25_2 Pin=R27-2
+Added Pin To Net: NetName=NetC25_2 Pin=U11-3
+Added Net: Name=NetC25_2
+Added Pin To Net: NetName=NetC31_2 Pin=C31-2
+Added Pin To Net: NetName=NetC31_2 Pin=R31-2
+Added Pin To Net: NetName=NetC31_2 Pin=R37-1
+Added Net: Name=NetC31_2
+Added Pin To Net: NetName=NetC33_2 Pin=C33-2
+Added Pin To Net: NetName=NetC33_2 Pin=HV_Out-4
+Added Pin To Net: NetName=NetC33_2 Pin=L2-2
+Added Net: Name=NetC33_2
+Change Class Name : Old Net Name=SMPS_+5V New Net Name=Step_Down
+Change Class Name : Old Net Name=Switching_Block New Net Name=High_Voltage_Converter
+Added Member To Class: ClassName=SE-HV00-02 Member=Component C20 100nF
+Added Member To Class: ClassName=SE-HV00-02 Member=Component C33 100nF
+Added Member To Class: ClassName=High_Voltage_Converter Member=Component C50 47uF
+Added Member To Class: ClassName=Current_Voltage_measure Member=Component C51 100nF
+Added Member To Class: ClassName=Current_Voltage_measure Member=Component C52 100nF
+Added Member To Class: ClassName=SE-HV00-02 Member=Component Power_in 4 Pin Socket
+Added Member To Class: ClassName=High_Voltage_Converter Member=Component R27 75R
+Added Member To Class: ClassName=High_Voltage_Converter Member=Component R31 75R
+Added Member To Class: ClassName=High_Voltage_Converter Member=Component R37 75R
+Added Member To Class: ClassName=High_Voltage_Converter Member=Component R38 75R
+Added Member To Class: ClassName=HV Member=Wire NetC20_2
+Added Member To Class: ClassName=HV Member=Wire NetC25_2
+Added Member To Class: ClassName=HV Member=Wire NetC33_2
+Added Member To Class: ClassName=HV Member=Wire NetC51_2
+Added Member To Class: ClassName=HV Member=Wire NetC52_2
+Added Rule: Name=Schematic Clearance Constraint_8
+Added Rule: Name=Schematic Clearance Constraint_9
+Added Rule: Name=Schematic Clearance Constraint_10
+Added Rule: Name=Schematic Clearance Constraint_11
+Added Rule: Name=Schematic Clearance Constraint_12
+Added Rule: Name=Schematic Width Constraint_7
+Added Rule: Name=Schematic Width Constraint_8
+Added Rule: Name=Schematic Width Constraint_9
+Added Rule: Name=Schematic Width Constraint_10

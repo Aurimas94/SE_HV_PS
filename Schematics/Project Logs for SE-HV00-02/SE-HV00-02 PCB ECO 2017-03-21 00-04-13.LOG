@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetC22_2 Pin=D3-2
+Removed Pin From Net: NetName=NetC30_2 Pin=D6-1
+Removed Pin From Net: NetName=NetC22_2 Pin=R16-2
+Removed Member From Class: ClassName=HV Member=NetD3_1
+Removed Member From Class: ClassName=HV1 Member=NetD6_2
+Added Pin To Net: NetName=NetC22_2 Pin=D3-1
+Added Pin To Net: NetName=NetC30_2 Pin=D6-2
+Added Pin To Net: NetName=NetC30_2 Pin=R16-2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=T1-6
+Added Net: Name=NetD3_2
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_1 Pin=T1-10
+Added Net: Name=NetD6_1
+Added Member To Class: ClassName=HV Member=Wire NetD3_2
+Added Member To Class: ClassName=HV1 Member=Wire NetD6_1

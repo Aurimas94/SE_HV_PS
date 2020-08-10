@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=T1-2
+Removed Pin From Net: NetName=GND Pin=T1-3
+Removed Pin From Net: NetName=GND Pin=T1-4
+Removed Pin From Net: NetName=GND Pin=T1-7
+Removed Pin From Net: NetName=GND Pin=T1-9
+Added Room: Name=Control
+Added Room: Name=Current_Voltage_measure
+Added Room: Name=Main_In
+Added Room: Name=SE-HV00-02
+Added Room: Name=SMPS_+5V
+Added Room: Name=Switching_Block
+Added Room: Name=USB
+Added Rule: Name=Schematic Clearance Constraint_1
+Added Rule: Name=Schematic Clearance Constraint_2
+Added Rule: Name=Schematic Clearance Constraint_3
+Added Rule: Name=Schematic Clearance Constraint_4
+Added Rule: Name=Schematic Clearance Constraint_5
+Added Rule: Name=Schematic Clearance Constraint_6
+Added Rule: Name=Schematic Width Constraint_4
+Added Rule: Name=Schematic Width Constraint_5

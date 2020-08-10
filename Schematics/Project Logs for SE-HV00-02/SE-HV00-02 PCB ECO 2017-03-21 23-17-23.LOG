@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetP4_3 Pin=R37-1
+Removed Pin From Net: NetName=+5V Pin=R37-2
+Removed Pin From Net: NetName=NetP4_4 Pin=R38-1
+Removed Pin From Net: NetName=+5V Pin=R38-2
+Removed Pin From Net: NetName=GND Pin=T1-2
+Removed Pin From Net: NetName=GND Pin=T1-3
+Removed Pin From Net: NetName=GND Pin=T1-4
+Removed Pin From Net: NetName=GND Pin=T1-7
+Removed Pin From Net: NetName=GND Pin=T1-9
+Removed Member From Class: ClassName=Current_Voltage_measure Member=R37
+Removed Member From Class: ClassName=Current_Voltage_measure Member=R38

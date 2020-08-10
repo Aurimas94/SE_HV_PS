@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=T1-2
+Removed Pin From Net: NetName=GND Pin=T1-3
+Removed Pin From Net: NetName=GND Pin=T1-4
+Removed Pin From Net: NetName=GND Pin=T1-7
+Removed Pin From Net: NetName=GND Pin=T1-9
+Added Rule: Name=Schematic Clearance Constraint_2
+Added Rule: Name=Schematic Clearance Constraint_5
+Added Rule: Name=Schematic Clearance Constraint_7
+Added Rule: Name=Schematic Width Constraint_4
+Added Rule: Name=Schematic Width Constraint_5
+Added Rule: Name=Schematic Width Constraint_6

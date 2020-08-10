@@ -1,0 +1,6 @@
+Added Component: Designator=P3(HDR1X4_3M96V)
+Added Pin To Net: NetName=NetL1_2 Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=GND Pin=P3-3
+Added Pin To Net: NetName=NetL2_2 Pin=P3-4
+Added Member To Class: ClassName=SE-HV00-02 Member=Component P3 HDR 4

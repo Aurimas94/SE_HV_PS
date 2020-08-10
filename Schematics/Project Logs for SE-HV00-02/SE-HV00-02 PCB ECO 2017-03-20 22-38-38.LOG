@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J3-2
+Removed Member From Class: ClassName=SE-HV00-02 Member=J2
+Removed Member From Class: ClassName=SE-HV00-02 Member=J3
+Added Pin To Net: NetName=NetL1_2 Pin=L1-2
+Added Net: Name=NetL1_2
+Added Pin To Net: NetName=NetL2_2 Pin=L2-2
+Added Net: Name=NetL2_2

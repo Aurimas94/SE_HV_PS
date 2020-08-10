@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=C25-1
+Removed Pin From Net: NetName=NetC25_2 Pin=C25-2
+Removed Member From Class: ClassName=High_Voltage_Converter Member=C25
+Removed Member From Class: ClassName=HV Member=NetC25_2
+Change Net Name : Old Net Name=NetC25_2 New Net Name=NetD9_1
+Added Member To Class: ClassName=HV Member=Wire NetD9_1

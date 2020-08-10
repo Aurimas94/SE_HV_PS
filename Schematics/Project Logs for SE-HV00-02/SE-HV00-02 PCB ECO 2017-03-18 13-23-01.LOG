@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=+5V Pin=C8-2
+Removed Pin From Net: NetName=+5V Pin=C9-2
+Removed Pin From Net: NetName=NetR19_1 Pin=U1-42
+Removed Pin From Net: NetName=NetR20_1 Pin=U1-43
+Removed Pin From Net: NetName=+5V Pin=U2-1
+Removed Pin From Net: NetName=+5V Pin=U3-2
+Change Component DesignItemId : Designator=P1 Old DesignItemId=J0000086 New DesignItemId=Right angle socket conn 2.54, single row
+Change Component Footprint: Designator=P1 Old Footprint=B4B-XH-A New Footprint=RA Socket 4 pin
+Change Component Comment : Designator=P1 Old Comment=B4B-XH-A New Comment=4 Pin Socket
+Added Component: Designator=C49(C0603V)
+Added Component: Designator=LCD (B4B-XH-A)
+Added Component: Designator=P3(RA HDR 4Pin)
+Added Component: Designator=P4(RA Socket 4 pin)
+Added Component: Designator=P5(RA HDR 4Pin)
+Added Component: Designator=R39(RESC1608N)
+Added Component: Designator=R40(RESC1608N)
+Added Pin To Net: NetName=+5V Pin=C49-1
+Added Pin To Net: NetName=GND Pin=C49-2
+Added Pin To Net: NetName=GND Pin=LCD -4
+Added Pin To Net: NetName=+5V Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-3
+Added Pin To Net: NetName=GND Pin=P3-3
+Added Pin To Net: NetName=GND Pin=P3-4
+Added Pin To Net: NetName=GND Pin=P4-1
+Added Pin To Net: NetName=NetR20_1 Pin=P4-3
+Added Pin To Net: NetName=NetR19_1 Pin=P4-4
+Added Pin To Net: NetName=GND Pin=P5-1
+Added Pin To Net: NetName=+3.3V Pin=R39-1
+Added Pin To Net: NetName=+3.3V Pin=R40-1
+Change Net Name : Old Net Name=+4V096 New Net Name=NetC7_2
+Change Net Name : Old Net Name=+12V New Net Name=NetC11_2
+Change Net Name : Old Net Name=NetR19_1 New Net Name=NetP4_4
+Change Net Name : Old Net Name=NetR20_1 New Net Name=NetP4_3
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=U2-1
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Pin To Net: NetName=NetC9_2 Pin=LCD -1
+Added Pin To Net: NetName=NetC9_2 Pin=P3-1
+Added Pin To Net: NetName=NetC9_2 Pin=P3-2
+Added Pin To Net: NetName=NetC9_2 Pin=U3-2
+Added Net: Name=NetC9_2
+Added Pin To Net: NetName=NetLCD _2 Pin=LCD -2
+Added Pin To Net: NetName=NetLCD _2 Pin=U1-30
+Added Net: Name=NetLCD _2
+Added Pin To Net: NetName=NetLCD _3 Pin=LCD -3
+Added Pin To Net: NetName=NetLCD _3 Pin=U1-31
+Added Net: Name=NetLCD _3
+Added Pin To Net: NetName=NetP4_2 Pin=P4-2
+Added Pin To Net: NetName=NetP4_2 Pin=U5-9
+Added Net: Name=NetP4_2
+Added Pin To Net: NetName=NetP5_2 Pin=P5-2
+Added Pin To Net: NetName=NetP5_2 Pin=U1-18
+Added Net: Name=NetP5_2
+Added Pin To Net: NetName=NetP5_3 Pin=P5-3
+Added Pin To Net: NetName=NetP5_3 Pin=R40-2
+Added Pin To Net: NetName=NetP5_3 Pin=U1-43
+Added Net: Name=NetP5_3
+Added Pin To Net: NetName=NetP5_4 Pin=P5-4
+Added Pin To Net: NetName=NetP5_4 Pin=R39-2
+Added Pin To Net: NetName=NetP5_4 Pin=U1-42
+Added Net: Name=NetP5_4
+Added Member To Class: ClassName=Control Member=Component C3 100nF
+Added Member To Class: ClassName=Switching_Block Member=Component C7 100nF
+Added Member To Class: ClassName=Switching_Block Member=Component C8 100nF
+Added Member To Class: ClassName=Control Member=Component C9 100nF
+Added Member To Class: ClassName=Control Member=Component C10 1uF
+Added Member To Class: ClassName=Current_Voltage_measure Member=Component C49 100nF
+Added Member To Class: ClassName=SE-HV00-02 Member=Component LCD  B4B-XH-A
+Added Member To Class: ClassName=SE-HV00-02 Member=Component P3 HDR 4 Pin
+Added Member To Class: ClassName=SE-HV00-02 Member=Component P4 4 Pin Socket
+Added Member To Class: ClassName=SE-HV00-02 Member=Component P5 HDR 4 Pin
+Added Member To Class: ClassName=Control Member=Component R39 10k
+Added Member To Class: ClassName=Control Member=Component R40 10k
+Added Member To Class: ClassName=Switching_Block Member=Component U2 MAX6104EUR+T
+Added Member To Class: ClassName=Control Member=Component U3 TLV70433DBVT

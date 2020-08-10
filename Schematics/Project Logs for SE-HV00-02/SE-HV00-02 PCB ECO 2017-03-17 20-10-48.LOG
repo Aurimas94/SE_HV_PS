@@ -1,0 +1,13 @@
+Added Component: Designator=U8(SMP-8)
+Added Component: Designator=U11(SMP-8)
+Added Pin To Net: NetName=NetD8_2 Pin=U8-2
+Added Pin To Net: NetName=NetD8_1 Pin=U8-3
+Added Pin To Net: NetName=GND Pin=U8-7
+Added Pin To Net: NetName=NetR30_1 Pin=U8-8
+Added Pin To Net: NetName=NetD9_2 Pin=U11-2
+Added Pin To Net: NetName=NetD9_1 Pin=U11-3
+Added Pin To Net: NetName=GND Pin=U11-7
+Added Pin To Net: NetName=NetR36_1 Pin=U11-8
+Added Member To Class: ClassName=Control Member=Component C3 100nF
+Added Member To Class: ClassName=Current_Voltage_measure Member=Component U8 6N136
+Added Member To Class: ClassName=Current_Voltage_measure Member=Component U11 6N136
